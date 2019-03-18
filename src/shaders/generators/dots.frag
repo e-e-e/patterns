@@ -18,7 +18,7 @@ void main() {
   // float x = (vTextureCoord.x) * 1.0 * M_PI;
   // float y = (vTextureCoord.y) * 1.0 * M_PI;
   // float v = circle(fract(vTextureCoord * 20.0), 1.45, 1.0/20.0);
-  float v = circle(fract(vTextureCoord * 30.0), 1.1, 1./30.0);//1.0/20.0);
+  float v = circle(fract(vTextureCoord * 5.0), .5, .6);//1.0/20.0);
   // float v = 0.2;
   fragColor = vec4(v,v,v,1);
 }

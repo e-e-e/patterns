@@ -72,6 +72,7 @@ export class Shader {
       int: (location, data) => gl.uniform1i(location, data),
       uint: (location, data) => gl.uniform1ui(location, data),
       sampler2D: (location, data) => gl.uniform1i(location, data),
+      sampler2DArray: (location, data) => gl.uniform1iv(location, data),
       sampler3D: (location, data) => gl.uniform1i(location, data),
       vec2: (location, data) => gl.uniform2fv(location, data),
       vec3: (location, data) => gl.uniform3fv(location, data),
