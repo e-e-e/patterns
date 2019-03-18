@@ -1,5 +1,5 @@
 {
-  "name": "doing-dancing-js",
+  "name": "patterns",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --open",
     "build": "webpack"
   },
-  "author": "",
+  "author": "Benjamin Forster",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.3.4",
